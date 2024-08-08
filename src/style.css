@@ -1,0 +1,51 @@
+/*一些公用的css*/
+
+:root {
+    font-family: sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.dark {
+    background-color: #7994d8;
+    color: #fff;
+    --text-color: #303d87;
+}
+
+.dark p, .dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
+    color: var(--text-color);
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+}
+
+.back-button {
+    font-size: 16px;
+    border: none;
+    color: #ffffff;
+    background-color: #409eff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #66b1ff;
+    transform: scale(1.05);
+}
+
+#app {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
