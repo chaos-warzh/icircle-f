@@ -11,18 +11,12 @@ type RegisterInfo = {
     name: string,
     phone: string,
     password: string,
-    address: string,
-    storeId?: number,
 }
 
 type UpdateInfo = {
-    role: string,
     name?: string,
     password?: string,
-    address?: string,
     phone?: string,
-    deliveryAddresses?:List<string>,
-    deliveryPhoneNumbers?:List<string>
 }
 
 // 如果有“Vue: This may be converted to an async function”警告，可以不管
