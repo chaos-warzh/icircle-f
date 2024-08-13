@@ -17,7 +17,7 @@ interface StoreItem {
 }
 
 const storeList = ref<StoreItem[]>([])
-const storeId = ref(undefined)
+
 getAllCircle().then(res => {
   storeList.value = res.data.result
 })
